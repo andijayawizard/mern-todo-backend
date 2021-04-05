@@ -2,6 +2,9 @@ const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 
 let Todo=new Schema({
+  todo_reg_number: {
+    type: Number
+  },
   todo_description: {
     type: String
   },
